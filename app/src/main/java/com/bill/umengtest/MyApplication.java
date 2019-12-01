@@ -15,6 +15,8 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+        // https://mobile.umeng.com/platform/config/apps
+
         UMConfigure.init(this, "5ddf2b4b570df37f510004b3"
                 , "umeng", UMConfigure.DEVICE_TYPE_PHONE, "");
         UMConfigure.setLogEnabled(true);
